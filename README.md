@@ -2,6 +2,8 @@
 
 A browser interface and edge Worker for inspecting synthetic IP context. The interface uses safe text rendering, and the API validates IPv4 and IPv6 addresses before returning a fixture.
 
+![Inspector preview](docs/preview.png)
+
 ## Run
 
 Use Node.js 18 or newer and run `node --test`. For a local browser preview, install Wrangler in your development environment and run `wrangler dev`; open the local address shown by Wrangler. The app has no token, external request, or production route.
